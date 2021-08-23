@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.felx
+{
+    display: flex;
+    justify-content: center;
+}
+.menu
+{
+    border-bottom: 1px solid gray;
+}
+.wraper
+{
+   
+    padding: 1%;
+    width: 80%;
+}
+.wraper ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  
+
+}
+.wraper ul li a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color :#ff6b81;
+
+}
+.wraper ul li a:hover
+{
+  
+    color :#ff4757;
+
+}
+.main-content
+{
+    
+    background-color: #f1f2f6;
+    height: auto 100%;
+    padding: 3% 0%;
+    
+
+
+}
+.col-4
+{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+}
+.admin-tbl
+{
+    width: 100%;
+    margin-top:20px;
+}
+.admin-tbl tr th 
+{
+    border-bottom :1px solid black ;
+    padding: 1%;
+    text-align: left;
+}
+.admin-tbl tr td 
+{
+    padding: 1%;
+}
+.btn
+{
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.primery
+{
+    background-color: #1e90ff;
+}
+.primery:hover
+{
+    background-color: #3742fa;
+}
+.secondary
+{
+    background-color: #7bed9f;
+}
+.secondary:hover
+{
+    background-color: #2ed573;
+}
+.danger
+{
+    background-color: #ff7f50;
+}
+.danger:hover
+{
+    background-color: #ff6348;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ff4757;
+    color: black;
+}

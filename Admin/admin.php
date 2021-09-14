@@ -7,8 +7,9 @@ include('../partisals/menu.php')
     <div class="wraper">
         <h1>Manage Admins</h1>
         <br>
-        <input type="button" class="btn primery" value="Add Admin" name="add-admin">
-
+        <a href="addAdmin.php"><input type="button" class="btn primery" value="Add Admin" name="add-admin">
+</a>
+        
         <table class="admin-tbl">
             <tr>
                 <th>Serial Number</th>

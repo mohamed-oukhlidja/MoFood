@@ -109,6 +109,27 @@
 {
     background-color: #ff6348;
 }
+.addadmin-tbl
+{
+    width: 50%;
+    margin-top:20px;
+}
+.addadmin-tbl tr th 
+{
+    border-bottom :1px solid black ;
+    /* padding: 1%; */
+    text-align: left;
+}
+.addadmin-tbl tr td 
+{
+    padding: 10px;
+}
+.submitDiv
+{
+    text-align: center;
+    width: 30%;
+    
+}
 .footer {
     position: fixed;
     left: 0;

@@ -28,8 +28,7 @@ This is a Restaurant Theme Website Template, designed using html and css..
 
 
 
-## For Sponsor or Project Enquiry
-1. Email - hi@vijaythapa.com
+
 
 
 
